@@ -14,7 +14,7 @@ export default class NavBar extends Component {
     }
 
     handleDropdown() {
-        this.setState = ({
+        this.setState({
             display: !this.state.display
         })
     }
@@ -35,6 +35,13 @@ export default class NavBar extends Component {
                         <button className='nav-button'>  Projects </button>
                         <button className='nav-button'> Contact </button>
                     </div>
+
+                    <div >
+                        <button className='nav-button'> About </button>
+                        <button className='nav-button'>  Projects </button>
+                        <button className='nav-button'> Contact </button>
+                    </div>
+
                 </div>
             </div>
         )
