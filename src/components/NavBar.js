@@ -10,6 +10,9 @@ export default class NavBar extends Component {
             <div>
                 <div className='navbar'>
                     <h1 className='app-name'> Start Bootstrap </h1>
+
+                    <div className='hamburger'> Menu &#9776; </div>
+
                     <div className='navbar-button-container'>
                         <button className='nav-button'> About </button>
                         <button className='nav-button'>  Projects </button>
