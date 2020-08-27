@@ -11,7 +11,16 @@ export default class App extends Component {
     return(
       <div className='body'> 
         <NavBar />
-        App.js 
+
+        <div>
+          <h1> GRAYSCALE </h1>
+          <div> 
+            <h2> A free, responsive, one page Bootstrap</h2>
+            <h2> theme created by Start Bottstrap </h2>
+          </div>
+          <button> GET STARTED </button>
+        </div>
+        
       </div>
     )
   }
