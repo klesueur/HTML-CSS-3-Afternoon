@@ -12,13 +12,15 @@ export default class App extends Component {
       <div className='body'> 
         <NavBar />
 
-        <div>
-          <h1> GRAYSCALE </h1>
+        <div className='content'>
+          <h1 className='grayscale'> GRAYSCALE </h1>
           <div> 
-            <h2> A free, responsive, one page Bootstrap</h2>
-            <h2> theme created by Start Bottstrap </h2>
+            <h2 className='description'> 
+              <p>A free, responsive, one page Bootstrap </p>
+              <p>theme created by Start Bootstrap </p>
+            </h2>
           </div>
-          <button> GET STARTED </button>
+          <button className='start-button'> GET STARTED </button>
         </div>
         
       </div>
