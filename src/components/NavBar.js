@@ -36,7 +36,7 @@ export default class NavBar extends Component {
                         <button className='nav-button'> Contact </button>
                     </div>
 
-                    <div >
+                    <div className={this.state.display ? 'dropdown' : 'hidden'}>
                         <button className='nav-button'> About </button>
                         <button className='nav-button'>  Projects </button>
                         <button className='nav-button'> Contact </button>
